@@ -67,26 +67,25 @@ h1{
 
 .button {
   border: none;
-  color: white;
-  padding: 10px 26px;
-  text-align: center;
+    border-radius: 8px;
+  background-color: #A58662;
+padding: 16px 28px;
+    text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 14px;
+  font-size:24px;
   margin: 4px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
 }
 
 .button4 {
-  background-color: white;
-  color: black;
-  border: 2px solid #e7e7e7;
+  background-color: #A58662;
 }
 
-.button4:hover {background-color: #e7e7e7;}
-
-
+.button4:hover {
+    background-color: #897053;
+}
 
 .controls__label {
   display: inline-block;
@@ -96,7 +95,6 @@ h1{
   border-bottom: 2px solid #ccc;
   color:#eee;
   margin-bottom: 5px;
-
     width: 450px;
 }
 
@@ -143,10 +141,10 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
 }
 
 label {
-  background-color: #B79266;
+  background-color: #003E59;
   color: black;
   font-weight: bold;
-  padding: 4px;
+  padding: 8px;
   text-transform: uppercase;
   font-family: Almarai, sans-serif;
   font-size:30px;
@@ -154,7 +152,7 @@ label {
 
 a {
     
-  color: #003E59;
+  color: #fff;
   font-weight: bold;
   text-decoration: none;
   padding: 4px;
@@ -181,6 +179,7 @@ a {
 }
       
       .header-up {
+              height: 840px;
          list-style: none;
          background-color: #eee;
     background-size: cover;
@@ -197,7 +196,8 @@ a {
 
     }
       .header-up {
-        
+                     height: 840px;
+ 
     background-image: url("smal-h.png");    
 }
     }
