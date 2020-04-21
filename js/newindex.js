@@ -125,4 +125,9 @@ download_img6 = function(el) {
   el.href = image6;
 };
 
-
+function setWordOrder(e) {
+	if (e.key == " ") {
+		var textbox = document.getElementById("mytextarea");
+		textbox.value += "\u200F";
+	}
+}
